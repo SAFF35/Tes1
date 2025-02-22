@@ -44,13 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Terjadi kesalahan saat koneksi ke server.");
       });
   });
-
-  // Tombol HOME menuju URL utama
-  const homeBtn = document.getElementById("homeBtn");
-  homeBtn.addEventListener("click", function () {
-    window.location.href = "https://SAFF35.github.io/Pencairan";
-  });
-});
   
   // Tombol HOME menuju URL utama
   const homeBtn = document.getElementById("homeBtn");
