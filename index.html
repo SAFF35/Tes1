@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Komisi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Kontainer Login (WL) -->
+  <div id="loginContainer" class="container login-container">
+    <h2>Lihat Komisi &amp; Bonus</h2>
+    <h3>Masukkan Kode ID &amp; Password Anda</h3>
+    <form id="loginForm">
+      <label for="kodeid">Kode ID</label>
+      <input type="text" id="kodeid" name="kodeid" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit" class="btn">LIHAT</button>
+    </form>
+  </div>
+
+  <!-- Kontainer Data (WD) – awalnya disembunyikan -->
+  <div id="dataContainer" class="container data-container" style="display:none;">
+    <h2 id="dataTitle"></h2>
+    <div id="dataContent"></div>
+    <br><br>
+    <button id="homeBtn" class="btn">Pencairan Komisi & Bonus</button>
+    <br><br>
+    <br><br>
+    <button id="homeBtn" class="btn">Halaman Utama</button>
+    <br><br>
+    <p style="text-align:center;">🔸️🔸️🔸️</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
