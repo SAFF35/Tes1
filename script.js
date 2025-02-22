@@ -92,11 +92,18 @@ function displayData(userData) {
     "Bonus Spesial 4",
     "Bonus Spesial 5",
     "Total Komisi+Bonus",
+    "Komisi+Bonus (Rp)",
     "Pencairan Sebelumnya",
     "Pencairan Baru",
     "Tgl Pencairan",
     "Jumlah Pencairan",
     "Jumlah Komisi+Bonus",
+    "Uang Digital (UD)
+    "Pencairan UD Sebelumnya
+    "Pencairan UD Baru",
+    "Tgl Pencairan UD",
+    "Jumlah Pencairan UD",
+    "Jumlah Uang Digital",
     "Bonus Tambahan 1",
     "Bonus Tambahan 2",
     "Bonus Tambahan 3"
@@ -113,10 +120,16 @@ function displayData(userData) {
     "Bonus Spesial 4",
     "Bonus Spesial 5",
     "Total Komisi+Bonus",
+    "Komisi+Bonus (Rp)",
     "Pencairan Sebelumnya",
     "Pencairan Baru",
     "Jumlah Pencairan",
     "Jumlah Komisi+Bonus",
+    "Uang Digital (UD)
+    "Pencairan UD Sebelumnya
+    "Pencairan UD Baru",
+    "Jumlah Pencairan UD",
+    "Jumlah Uang Digital",
     "Bonus Tambahan 1",
     "Bonus Tambahan 2",
     "Bonus Tambahan 3"
