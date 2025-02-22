@@ -1,0 +1,123 @@
+/* Gaaya umum body dengan background gradien dan border radius lembut */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #7ed56f, #ffffff, #fffa65, #ffffff);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Kontainer dasar */
+.container {
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Kontainer Login (WL) */
+.login-container {
+  width: 85%;
+  background: linear-gradient(45deg, #ffeb3b, #ff9800, #e91e63, #9c27b0);
+  background-size: 400% 400%;
+  animation: gradientLogin 2s ease infinite;
+}
+
+@keyframes gradientLogin {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Kontainer Data (WD) */
+.data-container {
+  width: 89%;
+  background: linear-gradient(45deg, #7ed56f, #ffffff, #fffa65, #ffffff);
+  background-size: 400% 400%;
+  animation: gradientData 2s ease infinite;
+}
+
+@keyframes gradientData {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Judul dan Subjudul – posisinya di tengah dan bergaya HT */
+h2, h3 {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Label field (rata kiri – PRK) */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+/* Input field – posisinya di tengah (PTL) dengan garis pinggir */
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Tombol (HT, WLB: biru, animasi berdenyut, huruf putih, border radius tumpul) */
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #2196F3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(33, 150, 243, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(33, 150, 243, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(33, 150, 243, 0); }
+}
+
+/* Gaya tabel untuk data anggota (penyajian label dengan titik dua yang rapi) */
+.table-data {
+  width: 95%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-data th,
+.table-data td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-data th {
+  width: 30%;
+}
